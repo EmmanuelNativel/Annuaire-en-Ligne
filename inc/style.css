@@ -1,0 +1,117 @@
+.case-id{
+	padding-top:10%;
+	text-align:center;
+}
+fieldset{
+	padding-left:10px;
+	margin:0 auto;
+	width:33%;
+	text-align:center;
+	background-color:rgb(220,220,220);
+	border-style:none;
+	border: 2px solid rgb(240,9,9);
+	margin-bottom : 30px;
+	
+}
+
+
+fieldset label{
+	
+	margin-left:10px;
+	display:inline-block;
+	text-align:bottom;
+	width:100px;
+	font-weight:bold;	
+}
+fieldset legend{
+	font-weight:bold;
+	font-size:20px;
+}
+
+fieldset input{
+	margin-bottom:3px;
+	padding-left:10px;
+	margin-left:5px;
+}
+
+form{
+	width:100%;
+	margin:0 auto;
+}
+
+.error{
+	font-weight:bold;
+	color:red;
+}
+.succes{
+	font-weight:bold;
+	color:green;
+}
+
+
+
+.bouton{
+	margin:0 auto;
+	width:120px;
+	height: 50px;
+	text-align:center;	
+	background-color:rgb(220,220,220);
+	border-color :rgb(240,9,9);
+	font-size: 16px; 
+	font-weight:bold; 
+}
+
+.bouton:hover{	
+	background-color:rgb(240,9,9);
+	border-color : rgb(0,0,0);
+}
+
+a{
+	text-align:center;
+	color:inherit;
+	text-decoration:underline;
+	margin-left:center;
+}
+
+a:hover{
+	color: rgb(240,9,9);
+}
+
+.lien{
+	padding: 10px 0px 5px 0px;
+	margin:0 auto;
+	width:33%;
+	text-align:center;
+	border:1px solid rgb(240,9,9);
+	background-color:rgb(220,220,220);
+	margin-top: 8%;
+}
+
+.lien p{
+	text-align:left;
+	width:11%;
+	margin:0 auto; ;
+	margin-bottom:5px;
+}
+
+.link{
+	font-size:20px;
+}
+
+.align{
+	margin:0 auto;
+	width:33%;
+	display:flex;
+	flex-direction:row;
+}
+
+ul{
+	list-style:none;
+}
+
+#containerType{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
